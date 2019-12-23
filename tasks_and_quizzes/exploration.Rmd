@@ -123,7 +123,7 @@ There are two things of note in the above picture.
 
 2. There are many "ambiguous" words in the top few words. For example, "just" may or may not be a grammatical construct ("I *just* went to the store" vs. *just* cause, or "I *will* go to the store" vs. iron *will*). This, unsurprisingly, shows that we'll need to use more complex language models than simply word frequencies to tease out context -- we'll probably want to look at word pairs at least, and possibly triples, quads, etc. if not full-blown sematics (basically, model the grammar of sentences).
 
-For a better look, I've included word clouds for each dataset below. The size corresponds with the freqnecy that the word is exhibited. Using this view, we can start to see some thematic differences between the datasets. For example, "said" is a fairly prominent word in `news` vs. "love" and "thank" in `twitter`. These clouds show all words that have occurred at least 1000 times in our datasets.
+For a better look, I've included word clouds for each dataset below. The size corresponds with the freqency that the word is exhibited. Using this view, we can start to see some thematic differences between the datasets. For example, "said" is a fairly prominent word in `news` vs. "love" and "thank" in `twitter`. These clouds show all words that have occurred at least 1000 times in our datasets.
 
 #### Blogs
 ```{r, echo=FALSE, cache=TRUE, warning=FALSE}
